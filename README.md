@@ -4,7 +4,7 @@
 
 # From-The-Git-Go
 
-cli-tool that will allow you to easily make new repos in github
+cli tool that will allow you to easily make new repos in github
 
 first:
     `$go build main.go`
