@@ -8,7 +8,7 @@ first:
 then to run:
     `$ ./main -u $GITHUB_USERNAME -p $NEW_GITHUB_REPO_NAME`
 
-###Current Status as of July 12, 2019
+### Current Status as of July 12, 2019
     
     It seems that if you would like to validate a tool like from-the-Git-Go,
     then you must authenticate with a bearer token; however, from the Linux
