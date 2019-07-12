@@ -10,19 +10,20 @@ then to run:
 
 ### Current Status as of July 12, 2019
     
-    It seems that if you would like to validate a tool like from-the-Git-Go,
-    then you must authenticate with a bearer token; however, from the Linux
-    CLI one would be able to authenticate with credentials after executing the curl.
+    It seems that if you would like to validate a tool, such as, From-The-Git-Go,
+    then you must authenticate with a bearer token utilizing oAuth 2.0; however, from the Linux
+    CLI one would be able to authenticate with credentials after executing a methodless curl.
 
-    I was hoping this was the case, but Golang requires a method to issue
-    an http protocol and for good reason.  Therefore, I could most likely dump the 
-    data into a bash script and easily fire the command.  To be honest, this is just
-    a super fancy alias and most developer probably set this as newrepo or something
-    of the like; however, I had a lot of fun making this.
+    I was hoping this was the case for this implementation, but Golang requires a method to issue
+    an http protocol and for good reason.  Therefore, I would most likely dump the 
+    data into a bash script and easily fire this command.  
+    
+    To be honest, From-The-Git-Go is just a super fancy alias and most developers probably set this as `newrepo` or something
+    of the like; consequently, I had a lot of fun making this and learned a lot about flag, os.Args, and http request using Go.
 
     Refactoring thoughts:
         - Golang
             Although I am still in the process of completing this, if I were to rewrite
-            it with the flags library to try and recreate and actual CLI argumentation array
+            it with Golang, I would use the flags library to try and recreate an actual CLI argumentation array
         - Best Practice
-            Bash...
+            Bash...just..Bash
