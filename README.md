@@ -1,4 +1,4 @@
-# from-the-Git-Go
+# From-The-Git-Go
 
 cli-tool that will allow you to easily make new repos in github
 
