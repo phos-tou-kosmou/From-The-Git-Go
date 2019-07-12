@@ -18,12 +18,16 @@ then to run:
     an http protocol and for good reason.  Therefore, I would most likely dump the 
     data into a bash script and easily fire this command.  
     
-    To be honest, From-The-Git-Go is just a super fancy alias and most developers probably set this as `newrepo` or something
-    of the like; consequently, I had a lot of fun making this and learned a lot about flag, os.Args, and http request using Go.
+    To be honest, From-The-Git-Go is just a super fancy alias and most developers probably 
+    set this as `newrepo` or something of the like; consequently, I had a lot of fun making 
+    this and learned a lot about flag, os.Args, and http request using Go.
 
     Refactoring thoughts:
+    
         - Golang
             Although I am still in the process of completing this, if I were to rewrite
-            it with Golang, I would use the flags library to try and recreate an actual CLI argumentation array
+            it with Golang, I would use the flags library to try and recreate an actual 
+            CLI argumentation array
+            
         - Best Practice
             Bash...just..Bash
